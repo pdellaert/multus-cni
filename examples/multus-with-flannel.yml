@@ -73,7 +73,6 @@ data:
           }
         }
       ],
-      "always_use_default": true,
       "kubeconfig": "/etc/kubernetes/kubelet.conf"
     }
   net-conf.json: |

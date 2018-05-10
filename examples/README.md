@@ -10,7 +10,6 @@ It is expected that aspects of your own setup will vary, at least in part, from 
 
 More specifically, these examples show:
 
-* Multus configured, using CNI a `.conf` file, with CRD support, specifying that we will use a "default network" with the `always_use_default` option set.
 * A resource definition with a daemonset that places the `.conf` on each node in the cluster.
 * A CRD definining the "networks" @ `networks.kubernetes.cni.cncf.io` 
 * CRD objects containing the configuration for both Flannel & macvlan.
